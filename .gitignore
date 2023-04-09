@@ -1,0 +1,9 @@
+env
+wav_data
+gura
+log
+test
+Marine
+__pycache__
+so-vits-svc-4.0-v2\dataset
+so-vits-svc-4.0-v2\hubert
