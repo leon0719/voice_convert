@@ -14,8 +14,8 @@ def download_video_audio(video_url, title,output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Download audio from a YouTube video")
-    parser.add_argument("--video_url","-v", help="The URL of the YouTube video")
-    parser.add_argument("--title","-t", help="The Title of the wav name")
-    parser.add_argument("--output_dir","-o", help="The directory where the audio file should be saved")
+    parser.add_argument("--video_url","-v", required=True ,help="The URL of the YouTube video")
+    parser.add_argument("--title","-t",default="name" ,help="The Title of the wav name e.x. 'name'.wav")
+    parser.add_argument("--output_dir","-o",default="wav/", help="The directory where the audio file should be saved")
     args = parser.parse_args()
     download_video_audio(args.video_url,args.title,args.output_dir)
