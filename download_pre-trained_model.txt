@@ -1,8 +1,15 @@
-#windows
-curl -o voice_convert\so-vits-svc-4.0-v2-main\hubert https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/checkpoint_best_legacy_500.pt
-curl -o voice_convert\so-vits-svc-4.0-v2-main\logs\44k https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/resolve/main/D_0.pth
-curl -o voice_convert\so-vits-svc-4.0-v2-main\logs\44k https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/G_0.pth
-#linux
-wget -P voice_convert\so-vits-svc-4.0-v2-main\hubert https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/checkpoint_best_legacy_500.pt
-wget -P voice_convert\so-vits-svc-4.0-v2-main\logs\44k https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/resolve/main/D_0.pth
-wget -P voice_convert\so-vits-svc-4.0-v2-main\logs\44k https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/G_0.pth
+#####windows####
+cd so-vits-svc-4.0-v2-main/hubert
+curl https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/checkpoint_best_legacy_500.pt
+
+cd so-vits-svc-4.0-v2-main/logs/44k
+curl https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/resolve/main/D_0.pth
+curl https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/G_0.pth
+
+#####linux######
+cd so-vits-svc-4.0-v2-main/hubert
+wget https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/checkpoint_best_legacy_500.pt
+
+cd so-vits-svc-4.0-v2-main/logs/44k
+wget https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/resolve/main/D_0.pth
+wget https://huggingface.co/justinjohn-03/so-vits-svc-4.0-v2-pretrained/blob/main/G_0.pth
