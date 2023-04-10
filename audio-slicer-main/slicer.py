@@ -149,7 +149,7 @@ def main():
 
     parser = ArgumentParser()
     parser.add_argument('--audio',default="wav/spk1.wav" ,type=str, help='The audio to be sliced')
-    parser.add_argument('--out', type=str,default="so-vits-svc-4.0-v2-main/dataset_raw/speaker0", help='Output directory of the sliced audio clips')
+    parser.add_argument('--out', type=str,default="so-vits-svc/dataset_raw/speaker0", help='Output directory of the sliced audio clips')
     parser.add_argument('--db_thresh', type=float, required=False, default=-40,
                         help='The dB threshold for silence detection')
     parser.add_argument('--min_length', type=int, required=False, default=10000,
