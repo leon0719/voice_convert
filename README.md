@@ -43,11 +43,11 @@ If you want to use Music Source Separation,recommend using [demucs](https://gith
 
 ```bash
 #create another environment
-python3.9 -m virtualenv demucs
+python3.9 -m virtualenv denoise
 #windows
-source demucs/Scripts/activate
+source denoise/Scripts/activate
 #linux
-source demucs/bin/activate
+source denoise/bin/activate
 #--------------------------------
 pip install -U demucs
 ```
