@@ -12,7 +12,6 @@ git clone https://github.com/leon0719/voice_convert.git
 ## Requirements
 
 ```bash
-cd voice_convert
 python3.9 -m pip install virtualenv
 python3.9 -m virtualenv env
 #windows
@@ -20,6 +19,7 @@ source env/Scripts/activate
 #linux
 source env/bin/activate
 #--------------------------------
+cd voice_convert
 pip install -r requirements.txt
 ```
 <hr>
