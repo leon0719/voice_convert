@@ -19,11 +19,11 @@ git clone https://github.com/leon0719/voice_convert.git
 
 ```bash
 python3.9 -m pip install virtualenv
-python3.9 -m virtualenv voice_convert
+python3.9 -m virtualenv env
 #windows
-source voice_convert/Scripts/activate
+source env/Scripts/activate
 #linux
-source voice_convert/bin/activate
+source env/bin/activate
 #--------------------------------
 cd voice_convert
 pip install -r requirements.txt
@@ -120,13 +120,14 @@ python train.py -c configs/config.json -m 44k
 ```bash
 cd so-vits-svc
 # Example
-python inference_main.py -m "logs/44k/G_30400.pth" -c "configs/config.json" -n "test.wav" -t 0 -s "speaker0"
+python inference_main.py -m "logs/44k/G_30400.pth" -c "configs/config.json" -n "test.wav" -t 0 -s "spk_name"
 ```
 - `-m` : Model path
 - `-t` : Pitch adjustment 0~12 woman -1~-12 man
 - `-n` : Wav name in so-vits-svc/raw folder
 - `-s` : Speaker name in so-vits-svc/dataset_raw
 
+### Final result in so-vits-svc-4.0/results
 
 ## Reference
 
