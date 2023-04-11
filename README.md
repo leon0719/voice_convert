@@ -123,7 +123,7 @@ cd so-vits-svc
 python inference_main.py -m "logs/44k/G_30400.pth" -c "configs/config.json" -n "test.wav" -t 0 -s "spk_name"
 ```
 - `-m` : Model path
-- `-t` : Pitch adjustment 0~12 woman -1~-12 man
+- `-t` : Pitch adjustment 0\~12 woman -1 \~ -12 man
 - `-n` : Wav name in so-vits-svc/raw folder
 - `-s` : Speaker name in so-vits-svc/dataset_raw
 
