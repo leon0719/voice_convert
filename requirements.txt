@@ -47,3 +47,4 @@ tensorboard
 tensorboardX
 edge_tts
 matplotlib
+praat-parselmouth
