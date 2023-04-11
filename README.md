@@ -1,5 +1,11 @@
 # voice convert
 
+
+## Depends
+
+- ### python <= 3.9
+- ### g++ <= 7.5.0
+
 ## Installing
 
 ---
