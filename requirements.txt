@@ -48,3 +48,4 @@ tensorboardX
 edge_tts
 matplotlib
 praat-parselmouth
+torchcrepe
